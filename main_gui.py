@@ -48,7 +48,7 @@ class DecryptApp:
         result = ""
 
         if not encrypted:
-            messagebox.showwarning("Peringatan", "Tolong masukkan teks terenkripsi.")
+            messagebox.showwarning("WARNING!", "Tolong masukkan teks terenkripsi.")
             return
 
         if enc_type == "Caesar Cipher (Brute Force)":
