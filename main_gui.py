@@ -12,11 +12,11 @@ from encryption_tools import (
 class DecryptApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("🛠️ Pemecah Enkripsi")
+        self.root.title("Decyript - @ddmrr")
         self.setup_widgets()
 
     def setup_widgets(self):
-        tk.Label(self.root, text="Teks/Hash terenkripsi:").grid(row=0, column=0, sticky="w")
+        tk.Label(self.root, text="Teksterenkripsi:").grid(row=0, column=0, sticky="w")
         self.input_text = tk.Text(self.root, height=4, width=50)
         self.input_text.grid(row=1, column=0, columnspan=3, padx=10)
 
